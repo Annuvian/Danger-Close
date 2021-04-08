@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     [SerializeField] float minimumFieldOfView = 0f;
     [SerializeField] float currentYTilt;
     [SerializeField] float currentXTilt;
+    bool laserIsOn = false;
 
     // References
     [SerializeField] GameObject cameraArray;
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour
     {
         LookAround();
         AdjustZoom();
+        ToggleLaser();
     }
 
     void LookAround()
@@ -48,12 +50,27 @@ public class Player : MonoBehaviour
         if (zoom > 0f && Camera.main.fieldOfView > minimumFieldOfView)
         {
             Camera.main.fieldOfView -= zoom;
-            Debug.Log(zoom);
         }
         else if (zoom < 0f && Camera.main.fieldOfView < maximumFieldOfView)
         {
             Camera.main.fieldOfView -= zoom;
-            Debug.Log(zoom);
+        }
+    }
+
+    void ToggleLaser()
+    {
+        if (Input.GetButtonUp("Toggle Laser"))
+        {
+            if (!laserIsOn)
+            {
+                laserIsOn = true;
+                Debug.Log("The laser designator has been turned on");
+            }
+            else
+            {
+                laserIsOn = false;
+                Debug.Log("The laser designator has been turned off");
+            }
         }
     }
 }
