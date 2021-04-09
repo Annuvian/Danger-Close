@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class Player : MonoBehaviour
 {
@@ -48,7 +49,7 @@ public class Player : MonoBehaviour
 
         if (Physics.Raycast(laserRay, out hit))
         {
-            rangeText.text = "RANGE: " + hit.distance;
+            rangeText.text = "RANGE: " + Math.Round(hit.distance) + "m";
         }
     }
 

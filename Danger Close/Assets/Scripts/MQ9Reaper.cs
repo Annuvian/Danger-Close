@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class MQ9Reaper : MonoBehaviour
 {
+    // Fields
+    [SerializeField] float ias = 87f;
+
+    // References
+    [SerializeField] GameObject propeller;
 
     void Start()
     {
@@ -12,6 +17,7 @@ public class MQ9Reaper : MonoBehaviour
 
     void Update()
     {
-        
+        transform.position += transform.forward * Time.deltaTime * ias;
+        propeller.transform.RotateAroundLocal(Vector3.forward, 9000f * Time.deltaTime);
     }
 }
