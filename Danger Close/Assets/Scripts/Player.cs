@@ -25,6 +25,8 @@ public class Player : MonoBehaviour
     [SerializeField] TextMeshProUGUI laserStatusText;
     [SerializeField] TextMeshProUGUI cameraZoomText;
     [SerializeField] TextMeshProUGUI ammoRemainingText;
+    [SerializeField] GameObject laserDot;
+    [SerializeField] GameObject lockBox;
 
     // Start is called before the first frame update
     void Start()
@@ -84,11 +86,13 @@ public class Player : MonoBehaviour
             {
                 laserIsOn = true;
                 laserStatusText.gameObject.SetActive(true);
+                laserDot.SetActive(true);
             }
             else
             {
                 laserIsOn = false;
                 laserStatusText.gameObject.SetActive(false);
+                laserDot.SetActive(false);
             }
         }
     }
