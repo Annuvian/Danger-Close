@@ -12,7 +12,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -25,7 +25,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1715081162998506, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_Name
-      value: GBU-12 Paveway II Variant
+      value: GBU-12 Paveway II (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4283621787634160, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_RootOrder
@@ -33,15 +33,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4283621787634160, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.12
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 4283621787634160, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 140.052
+      value: -0.35099792
       objectReference: {fileID: 0}
     - target: {fileID: 4283621787634160, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.44
+      value: -0.25007343
       objectReference: {fileID: 0}
     - target: {fileID: 4283621787634160, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -49,7 +49,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4283621787634160, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4283621787634160, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_LocalRotation.y
