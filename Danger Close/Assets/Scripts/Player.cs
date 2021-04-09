@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -9,20 +10,28 @@ public class Player : MonoBehaviour
     float minimumYTilt = -17f;
     float maximumYTilt = 71f;
     [SerializeField] float zoomSpeed = 5f;
-    [SerializeField] float maximumFieldOfView = 70f;
-    [SerializeField] float minimumFieldOfView = 0f;
+    int currentZoomLevel = 1;
+    [SerializeField] float maximumFocalLength = 2000f;
+    [SerializeField] float minimumFocalLength = 25f;
     [SerializeField] float currentYTilt;
     [SerializeField] float currentXTilt;
+    [SerializeField] int ammoRemaining;
     bool laserIsOn = false;
 
     // References
     [SerializeField] GameObject cameraArray;
+    [SerializeField] TextMeshProUGUI selectedWeaponText;
+    [SerializeField] TextMeshProUGUI rangeText;
+    [SerializeField] TextMeshProUGUI laserStatusText;
+    [SerializeField] TextMeshProUGUI cameraZoomText;
+    [SerializeField] TextMeshProUGUI ammoRemainingText;
 
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        ammoRemainingText.text = ammoRemaining.ToString();
     }
 
     // Update is called once per frame
@@ -31,6 +40,14 @@ public class Player : MonoBehaviour
         LookAround();
         AdjustZoom();
         ToggleLaser();
+
+        RaycastHit hit;
+        Ray laserRay = new Ray(transform.position, transform.forward);
+
+        if (Physics.Raycast(laserRay, out hit))
+        {
+            rangeText.text = "RANGE: " + hit.distance;
+        }
     }
 
     void LookAround()
@@ -47,13 +64,15 @@ public class Player : MonoBehaviour
     void AdjustZoom()
     {
         float zoom = Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
-        if (zoom > 0f && Camera.main.fieldOfView > minimumFieldOfView)
+        if (zoom > 0f && Camera.main.focalLength < maximumFocalLength)
         {
-            Camera.main.fieldOfView -= zoom;
+            Camera.main.focalLength += 25f;
+            cameraZoomText.text = "CAM MAG: " + ++currentZoomLevel + "x";
         }
-        else if (zoom < 0f && Camera.main.fieldOfView < maximumFieldOfView)
+        else if (zoom < 0f && Camera.main.focalLength > minimumFocalLength)
         {
-            Camera.main.fieldOfView -= zoom;
+            Camera.main.focalLength -= 25f;
+            cameraZoomText.text = "CAM MAG: " + --currentZoomLevel + "x";
         }
     }
 
@@ -64,12 +83,12 @@ public class Player : MonoBehaviour
             if (!laserIsOn)
             {
                 laserIsOn = true;
-                Debug.Log("The laser designator has been turned on");
+                laserStatusText.gameObject.SetActive(true);
             }
             else
             {
                 laserIsOn = false;
-                Debug.Log("The laser designator has been turned off");
+                laserStatusText.gameObject.SetActive(false);
             }
         }
     }
