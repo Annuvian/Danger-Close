@@ -66,12 +66,12 @@ public class Player : MonoBehaviour
         float zoom = Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
         if (zoom > 0f && Camera.main.focalLength < maximumFocalLength)
         {
-            Camera.main.focalLength += 25f;
+            Camera.main.focalLength *= 2;
             cameraZoomText.text = "CAM MAG: " + ++currentZoomLevel + "x";
         }
         else if (zoom < 0f && Camera.main.focalLength > minimumFocalLength)
         {
-            Camera.main.focalLength -= 25f;
+            Camera.main.focalLength /= 2;
             cameraZoomText.text = "CAM MAG: " + --currentZoomLevel + "x";
         }
     }
