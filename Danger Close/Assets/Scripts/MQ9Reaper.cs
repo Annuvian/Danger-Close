@@ -17,7 +17,7 @@ public class MQ9Reaper : MonoBehaviour
 
     void Update()
     {
-        transform.position += transform.forward * Time.deltaTime * ias;
+        // transform.position += transform.forward * Time.deltaTime * ias;
         propeller.transform.RotateAroundLocal(Vector3.forward, 25f * Time.deltaTime);
     }
 }

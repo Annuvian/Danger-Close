@@ -29,6 +29,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ias: 87
+  propeller: {fileID: 0}
 --- !u!1001 &9209323679662442068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39,6 +40,10 @@ PrefabInstance:
     - target: {fileID: 1936028223067146, guid: e7a1b80b0c1acd9478899577752e2f0f, type: 3}
       propertyPath: m_Name
       value: MQ-9 Reaper Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936028223067146, guid: e7a1b80b0c1acd9478899577752e2f0f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4527734246356002, guid: e7a1b80b0c1acd9478899577752e2f0f, type: 3}
       propertyPath: m_RootOrder

@@ -25,7 +25,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1715081162998506, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_Name
-      value: GBU-12 Paveway II (1)
+      value: GBU-12 Paveway II Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715081162998506, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4283621787634160, guid: f00726c5cd2a0a94b923b5088a58dcd6, type: 3}
       propertyPath: m_RootOrder

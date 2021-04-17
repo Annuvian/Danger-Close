@@ -18,9 +18,14 @@ public class Player : MonoBehaviour
     [SerializeField] float currentXTilt;
     [SerializeField] int ammoRemaining;
     bool laserIsOn = false;
+    bool isLocked = false;
+    public RaycastHit laser;
+    private int selectedWeaponIndex = 0;
 
     // References
     [SerializeField] GameObject cameraArray;
+    [SerializeField] AGM_114_Hellfire[] hellfires;
+    [SerializeField] AGM_114_Hellfire selectedHellfire;
     [SerializeField] TextMeshProUGUI selectedWeaponText;
     [SerializeField] TextMeshProUGUI rangeText;
     [SerializeField] TextMeshProUGUI laserStatusText;
@@ -35,6 +40,11 @@ public class Player : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         ammoRemainingText.text = ammoRemaining.ToString();
+        if (hellfires[0] != null)
+        {
+            selectedHellfire = hellfires[0];
+            selectedWeaponText.text = selectedHellfire.name;
+        }
     }
 
     // Update is called once per frame
@@ -43,13 +53,14 @@ public class Player : MonoBehaviour
         LookAround();
         AdjustZoom();
         ToggleLaser();
+        ObtainLock();
+        FireWeapon();
 
-        RaycastHit hit;
         Ray laserRay = new Ray(transform.position, transform.forward);
 
-        if (Physics.Raycast(laserRay, out hit))
+        if (Physics.Raycast(laserRay, out laser))
         {
-            rangeText.text = "RANGE: " + Math.Round(hit.distance) + "m";
+            rangeText.text = "RANGE: " + Math.Round(laser.distance) + "m";
         }
     }
 
@@ -95,6 +106,46 @@ public class Player : MonoBehaviour
                 laserStatusText.gameObject.SetActive(false);
                 laserDot.SetActive(false);
             }
+        }
+    }
+
+    void ObtainLock()
+    {
+        if (Input.GetButtonDown("Attempt Lock"))
+        {
+            if (laserIsOn && selectedHellfire != null && !isLocked)
+            {
+                selectedHellfire.hasLock = true;
+                lockBox.SetActive(true);
+                isLocked = true;
+            }
+            else if (laserIsOn && selectedHellfire != null && isLocked)
+            {
+                isLocked = false;
+                lockBox.SetActive(false);
+                if (selectedHellfire != null)
+                {
+                    selectedHellfire.hasLock = false;
+                }
+            }
+        }
+    }
+
+    void CycleWeapons()
+    {
+        if (selectedWeaponIndex < hellfires.Length - 1)
+        {
+            selectedWeaponIndex += 1;
+            selectedHellfire = hellfires[selectedWeaponIndex];
+        }
+    }
+
+    void FireWeapon()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            selectedHellfire.Launch();
+            CycleWeapons();
         }
     }
 }
