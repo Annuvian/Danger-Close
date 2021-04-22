@@ -15,11 +15,11 @@ E:/Documents/School/Spring 2021/Game Development/Danger-Close/Danger Close
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50587
+50295
 Successfully changed project path to: E:/Documents/School/Spring 2021/Game Development/Danger-Close/Danger Close
 E:/Documents/School/Spring 2021/Game Development/Danger-Close/Danger Close
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 64.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.3f1 (4bef613afd59)
 [Subsystems] Discovering subsystems at path E:/Programs/Unity/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'E:/Programs/Unity/2021.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/Unity/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Programs/Unity/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programs/Unity/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001295 seconds.
+Registered in 0.001255 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 73.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.483 seconds
+- Completed reload, in  1.423 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002807 seconds.
+Registered in 0.003038 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
+- Completed reload, in  0.950 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -62,54 +62,774 @@ Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1282 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.7 MB.
-System memory in use after: 81.7 MB.
+System memory in use after: 81.8 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1755.
-Total: 1.863400 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.075600 ms MarkObjects: 1.528800 ms  DeleteObjects: 0.062800 ms)
+Total: 1.733800 ms (FindLiveObjects: 0.131200 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.493300 ms  DeleteObjects: 0.060900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(5d50c7b81b878cf46911c2b849196f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(5d50c7b81b878cf46911c2b849196f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f7e43227bdd840f55ca683a698c994') in 0.107931 seconds 
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d3fe2402d50f3270a04fd32c44fc5e') in 0.149197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.545537 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29332c3638dd9d6f6d88ab6221707f9') in 0.013316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.214731 seconds.
+  path: Assets/Materials/New gun metal.mat
+  artifactKey: Guid(787619e15cf0afb408c4a364c3560c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New gun metal.mat using Guid(787619e15cf0afb408c4a364c3560c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc1e7adbfaabc3e8cc62ee804a7538f') in 0.042671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.912956 seconds.
+  path: Assets/Materials/Flame.mat
+  artifactKey: Guid(420277b9795f27c47b82ae7eaf1856db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Flame.mat using Guid(420277b9795f27c47b82ae7eaf1856db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c544adcbba1f1efaa744e079e3e5fc6') in 0.011735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.774983 seconds.
+  path: Assets/PolygonMilitary/Textures/Vehicles/Air_Veh_Large_01.png
+  artifactKey: Guid(4f4773d4775debb408086688134a13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Vehicles/Air_Veh_Large_01.png using Guid(4f4773d4775debb408086688134a13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b463d6ed88ac02481bf6e259c3f3d6') in 0.061807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/PolygonMilitary/Textures/Decals/Bullet_Decal_Atlas_D.png
+  artifactKey: Guid(f34510fb94375d1418c21da491b42a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Decals/Bullet_Decal_Atlas_D.png using Guid(f34510fb94375d1418c21da491b42a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31fc6b7fe881ceac6e508551e3aa8f5') in 0.048246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/PolygonMilitary/Textures/Air_Vehicle_Burnt.png
+  artifactKey: Guid(12eefcf990bcdf947982514b000cf780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Air_Vehicle_Burnt.png using Guid(12eefcf990bcdf947982514b000cf780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377fd3689bf2b6232b43e8bb479919c3') in 0.016812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/PolygonMilitary/Textures/Decals/Bullet_Decal_Atlas_N.png
+  artifactKey: Guid(6d3bd3fef87b9ad488c145a56dedaa6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Decals/Bullet_Decal_Atlas_N.png using Guid(6d3bd3fef87b9ad488c145a56dedaa6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf2d4ffc97927ad7276151c49bbcf7c') in 0.024940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/PolygonMilitary/Textures/Vehicles/Air_Veh_Large_02.png
+  artifactKey: Guid(471c66b6cf0d2b245bc99b35365c12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Vehicles/Air_Veh_Large_02.png using Guid(471c66b6cf0d2b245bc99b35365c12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13368888ad720eafcac0bdf4fa01764b') in 0.011900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonMilitary/Textures/Decals/Bullet_Decal_Concrete_01_D.png
+  artifactKey: Guid(44a3577c05a76a346b3216cec7b27f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Decals/Bullet_Decal_Concrete_01_D.png using Guid(44a3577c05a76a346b3216cec7b27f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e77a678f9c34767784d0e7e65022d9') in 0.016158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/PolygonMilitary/Textures/Air_Vehicle_Master_01.png
+  artifactKey: Guid(96a15026f3955be46bb24171b5567c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Air_Vehicle_Master_01.png using Guid(96a15026f3955be46bb24171b5567c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e97373a7722155571a7ae78124f1594') in 0.021541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/PolygonMilitary/Textures/Decals/Bullet_Decal_Concrete_01_N.png
+  artifactKey: Guid(384ecba132e75ba49813a8e913587ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Decals/Bullet_Decal_Concrete_01_N.png using Guid(384ecba132e75ba49813a8e913587ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb06bf58a6074c71e1788855144f3bb7') in 0.017919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.335965 seconds.
+  path: Assets/PolygonMilitary/Textures/Land_Vehicle_Master_01.png
+  artifactKey: Guid(4dfbcc20f85ba0e4f9ca90ebdfa6d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Land_Vehicle_Master_01.png using Guid(4dfbcc20f85ba0e4f9ca90ebdfa6d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054c5505e91b215aa02d874d3cf75cc3') in 0.012200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonMilitary/Textures/Land_Vehicle_Master_03.png
+  artifactKey: Guid(c9f22369f574ad9469371f22a407805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Land_Vehicle_Master_03.png using Guid(c9f22369f574ad9469371f22a407805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422e24e2cdb1c7435c0d582e7ad59d3e') in 0.024056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/PolygonMilitary/Textures/Land_Vehicle_Master_02.png
+  artifactKey: Guid(6e37b4665c2275448a89aa26598da26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Land_Vehicle_Master_02.png using Guid(6e37b4665c2275448a89aa26598da26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c1b5c4d86be538439fc0363c219604') in 0.022927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/PolygonMilitary/Textures/Land_Vehicle_Master_Burnt_01.png
+  artifactKey: Guid(19af44ebe09b96b40a5d5631460703a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/Land_Vehicle_Master_Burnt_01.png using Guid(19af44ebe09b96b40a5d5631460703a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd3280f2327ce87671d0cff381a3ab7') in 0.010447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/PolygonMilitary/Textures/PolygonMilitary_Texture_01_WhiteTest.png
+  artifactKey: Guid(4a9f1790a6b270e4b96360e7d198988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Textures/PolygonMilitary_Texture_01_WhiteTest.png using Guid(4a9f1790a6b270e4b96360e7d198988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cff45c06657f8aaac9f9dd100f884aa') in 0.050325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Textures/Crystal/TexturesCom_Various_CrystalOre_1K_albedo.tif
+  artifactKey: Guid(29be0970b1a2e4d46ae345705d39fb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Crystal/TexturesCom_Various_CrystalOre_1K_albedo.tif using Guid(29be0970b1a2e4d46ae345705d39fb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8207e1ad193c0605da2115a977333699') in 0.014173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.380886 seconds.
+  path: Assets/Models/Rifle_v13.fbx
+  artifactKey: Guid(b5e9cd54de11f874fb46d399f783aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rifle_v13.fbx using Guid(b5e9cd54de11f874fb46d399f783aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9560da5ba1be7612a2863ce762fd564b') in 0.199852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/PolygonMilitary/Models/SM_Bld_Shop_12.fbx
+  artifactKey: Guid(f8b1ac1e11e2dd94eb5d8e13b38bfb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Models/SM_Bld_Shop_12.fbx using Guid(f8b1ac1e11e2dd94eb5d8e13b38bfb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a5914d922f0a25bcb98073c741fb7a') in 0.022833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/PolygonMilitary/Models/SM_Bld_Shop_13.fbx
+  artifactKey: Guid(2284a3e4a05652e4884fd55f6a7586d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMilitary/Models/SM_Bld_Shop_13.fbx using Guid(2284a3e4a05652e4884fd55f6a7586d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f0c5eff4d69811fe718728ec5a71c2') in 0.023016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.049977 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70936b37937a1047628d22b4967e44f5') in 0.025863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 685.339609 seconds.
+  path: Assets/Materials/Flame.mat
+  artifactKey: Guid(420277b9795f27c47b82ae7eaf1856db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Flame.mat using Guid(420277b9795f27c47b82ae7eaf1856db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279b39acb7e554f5212979a261280af1') in 0.013864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 236.970941 seconds.
+  path: Assets/Materials/Flame.mat
+  artifactKey: Guid(420277b9795f27c47b82ae7eaf1856db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Flame.mat using Guid(420277b9795f27c47b82ae7eaf1856db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd684eebbfe54747fe26917fb7b9842bd') in 0.010587 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002901 seconds.
+Registered in 0.002982 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
+- Completed reload, in  0.940 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.9 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2034.
+Total: 2.110400 ms (FindLiveObjects: 0.137900 ms CreateObjectMapping: 0.055500 ms MarkObjects: 1.849300 ms  DeleteObjects: 0.066600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.236149 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a98757b4890e43d8c2d5e23a308c06') in 0.062332 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
+System memory in use before: 129.5 MB.
+System memory in use after: 129.5 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1758.
-Total: 1.726200 ms (FindLiveObjects: 0.125800 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.510800 ms  DeleteObjects: 0.045700 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 2.120800 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.878000 ms  DeleteObjects: 0.051200 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 31.923050 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c489892620f9ad90a2e99fedb20a8839') in 0.068179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.828534 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d0933a19850addfd565017e32e6806') in 0.013517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.910785 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bbe3bdc653cbfa84fa3aa84539834b') in 0.013421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.031400 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd187958eb49f742707753f47ae54e9') in 0.013380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.009202 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbef1a99005efe44de74def9c3659787') in 0.012764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.296671 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc38d50c4dfb752ffe816ee905fcffe') in 0.013928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.369188 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8a4bf44b811513a785c4bd2c9fa3a8') in 0.014303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.669612 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54752a578023a71de3ff8e6fd3f051c0') in 0.013329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.159422 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3016ac0d5b485b9790dde7ac319e332') in 0.015508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.382435 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8845c6e3574e5c05762bf1fad7c697') in 0.013817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.887210 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956a809387be42dc233c281bb0b2b37b') in 0.014268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.678797 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd167dbd56886fa6850458ceaaef573') in 0.013460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.793158 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b4acd09ac4aa72ea35e3e6f396aab9') in 0.013148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.306287 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d61e03d9c5f0eaf386974068c6a22d') in 0.015603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.556220 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae0666bce47d05c62c364241d93dbf5') in 0.013105 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002700 seconds.
+Registered in 0.002766 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
+- Completed reload, in  0.856 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.6 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2043.
+Total: 1.896000 ms (FindLiveObjects: 0.146100 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.655100 ms  DeleteObjects: 0.049700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.809869 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368d727a21f2fa88186d3933e1b497ff') in 0.063141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.478614 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc92f6dc298f9ff1af7bb535ccbcbb3') in 0.013533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.284838 seconds.
+  path: Assets/Materials/Smoke.mat
+  artifactKey: Guid(149c166197f70db4e84019406b7773ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Smoke.mat using Guid(149c166197f70db4e84019406b7773ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e2a11b6fddc99e6013142c49255426') in 0.023653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.878752 seconds.
+  path: Assets/Materials/Smoke.mat
+  artifactKey: Guid(149c166197f70db4e84019406b7773ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Smoke.mat using Guid(149c166197f70db4e84019406b7773ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ed02c2ce02cc3e0ebe250b22395e38') in 0.010208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 662.711937 seconds.
+  path: Assets/Materials/Smoke.mat
+  artifactKey: Guid(149c166197f70db4e84019406b7773ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Smoke.mat using Guid(149c166197f70db4e84019406b7773ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4cc8850a480efc93240d502c96d620') in 0.007287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.999362 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc38b6d9761153cd4a882d882a294adf') in 0.014746 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
+System memory in use before: 129.6 MB.
+System memory in use after: 129.7 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1761.
-Total: 1.802400 ms (FindLiveObjects: 0.117800 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.593300 ms  DeleteObjects: 0.051500 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 1.852600 ms (FindLiveObjects: 0.146900 ms CreateObjectMapping: 0.054700 ms MarkObjects: 1.587300 ms  DeleteObjects: 0.062700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.597749 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e7e1ee4d3030d871cad560c5778dea') in 0.062375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.653368 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8d474cf88ccad5fe2b236a9ea35359') in 0.015118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.987432 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d481f2df0b554ef5ae089bae713992f') in 0.014081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.865590 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfec743d702fea1cb2c6515b7767af6') in 0.013589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.592273 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab82a73bfbc4918199f18b3b946f374') in 0.014110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.612361 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410bcb48bdee882b7d7a73c666e4e853') in 0.015286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.468472 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba8ea18b3b7897c97f25fb0e5f31f42') in 0.013700 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.6 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 2.155700 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.890600 ms  DeleteObjects: 0.048900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.637174 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec34d8efac834451b5b0a6dbe6db48e8') in 0.066391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.445270 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e06a5813ff1c3b1db2376c8a5dc41aa') in 0.014351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.075085 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a739a7298d5b119470086db356e144d0') in 0.013888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.806168 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44e3880de4e8500b5e9116ce4b1db0d') in 0.014107 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2055.
+Total: 1.887700 ms (FindLiveObjects: 0.158600 ms CreateObjectMapping: 0.051100 ms MarkObjects: 1.625900 ms  DeleteObjects: 0.051400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 343.954999 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b753a2cd92e01bc2b3bd8d3b303b31a') in 0.069049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.864992 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1ad75f2f13163f7908a7a27dbe3673') in 0.014493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.048148 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3057144bb40bfc3e0613cfc6cf56d1') in 0.013851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.455489 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e4ee1314617755da9efc0e8abefd5f') in 0.014553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.275966 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf4786d7d911100758f3fd7275ac41c') in 0.014540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.891552 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e498d64a5cc827df34acd0beab7601') in 0.014976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.075113 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ae16731b47bc7dd9ac98d9ca5cb04d') in 0.014736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.456376 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7927c53e83a28f9cde102ab6bdf674e') in 0.014630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.862598 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc63cc8f7ffd939d084e94fb4689be6f') in 0.013841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.650306 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cfa9134362821958ab675b4640e780') in 0.014107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.876003 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f10d76b9394f1d805749dd004b8c198') in 0.014636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1365.188107 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a946a689eccd2e07e951657802e35b') in 0.016095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.162398 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434bf37ea7fdeca69c86535fb10ffde6') in 0.013996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.879724 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164c165efd324d1fbad2fd9c52f6e0fd') in 0.014629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.345002 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484e2642b52ebed4d3aabe7c56e6336b') in 0.014276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.547179 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ecf5d4450efa8ed11851aa57fdd7f3') in 0.013640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.891240 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd233d498dbeda7c2b6ddd4592a73cc0') in 0.013670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.959588 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b713b8c88f95d2de92258bfef55d36') in 0.014787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.099032 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1e06af998142ddf619eec4cafa6e5e') in 0.014868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.580791 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ab2dd70692b1c40bac4b681fe92e0d') in 0.013885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.513300 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa9544c058cd08f9bc4251d17104029') in 0.014968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.001248 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b21f637762fef57f47138c30ddb2340') in 0.013992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.989524 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a689a815fdfe531617666911bc5491') in 0.014478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.405576 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b594267132f6cb8373fab5665193538') in 0.013938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.345307 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3af047fc10ce389ae70898e6dc8d6e7') in 0.013540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.394085 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67f24a14752441b1367cb59d455f923') in 0.013750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.341493 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a040f0839fb2c972e81eca0339aee4d') in 0.018177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.122339 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ab012f52c3dce203cbb0c6d74399d3') in 0.013524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.568965 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ea3c2781c8471b398d11d8f3cbf3b5') in 0.014396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.641421 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a694112c25faaaa95a89bf5b9deb1148') in 0.015400 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.6 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2059.
+Total: 1.852300 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.599800 ms  DeleteObjects: 0.050800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.451819 seconds.
+  path: Assets/Scripts/AGM_114_Hellfire.cs
+  artifactKey: Guid(753ffae552025bb4cbd2266fdf1eee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AGM_114_Hellfire.cs using Guid(753ffae552025bb4cbd2266fdf1eee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae56b154c3302af4bedbebc6069e8cf') in 0.017482 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 2.057500 ms (FindLiveObjects: 0.154900 ms CreateObjectMapping: 0.056000 ms MarkObjects: 1.804000 ms  DeleteObjects: 0.041800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.069397 seconds.
+  path: Assets/Scripts/AGM_114_Hellfire.cs
+  artifactKey: Guid(753ffae552025bb4cbd2266fdf1eee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AGM_114_Hellfire.cs using Guid(753ffae552025bb4cbd2266fdf1eee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1ab1ab7b4ff9252d491304fef3cc96') in 0.003419 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002703 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 1.776600 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.537600 ms  DeleteObjects: 0.043600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.700634 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720bbd77f63ffff8e0d8637bc37972a4') in 0.061787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.806635 seconds.
+  path: Assets/Prefabs/AGM-114 Hellfire Variant.prefab
+  artifactKey: Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AGM-114 Hellfire Variant.prefab using Guid(a2d9a3f96e9fdea4d83e582af3ec0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba269848d6fcdb24e8d12a036736eef') in 0.015252 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.9 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2069.
+Total: 1.881300 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.622400 ms  DeleteObjects: 0.052300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003111 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 129.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2072.
+Total: 2.197200 ms (FindLiveObjects: 0.166300 ms CreateObjectMapping: 0.058700 ms MarkObjects: 1.909900 ms  DeleteObjects: 0.061200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

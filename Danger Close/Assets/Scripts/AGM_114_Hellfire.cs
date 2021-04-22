@@ -19,6 +19,7 @@ public class AGM_114_Hellfire : MonoBehaviour
     [SerializeField] Rigidbody rb;
     [SerializeField] GameObject explosion;
     [SerializeField] AudioSource explosionSound;
+    [SerializeField] Transform smoke;
     private Player player;
 
     // [SerializeField] DestroyedObject temp;
@@ -79,6 +80,8 @@ public class AGM_114_Hellfire : MonoBehaviour
             // Damage things nearby
             // Throw fragments etc.
             Instantiate(explosion, transform.position, explosion.transform.rotation);
+            smoke.GetComponent<ParticleSystem>().loop = false;
+            smoke.parent = null;
             // temp.DestroyUnit();
             Destroy(gameObject);
         }
