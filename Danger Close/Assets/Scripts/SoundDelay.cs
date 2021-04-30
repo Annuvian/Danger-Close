@@ -12,6 +12,8 @@ public class SoundDelay : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("MainCamera").transform.position;
         sound = GetComponent<AudioSource>();
+        AudioLowPassFilter LPF = GetComponent<AudioLowPassFilter>();
+        LPF.cutoffFrequency = 5000 * (1500 / Vector3.Distance(transform.position, player));
         sound.PlayDelayed(Vector3.Distance(gameObject.transform.position, player) / 343f);
     }
 }

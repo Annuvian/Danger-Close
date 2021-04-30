@@ -1,0 +1,211 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.5f1 (3737af19df53) revision 3618735'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 65448 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Programs\Unity\2021.1.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Documents/School/Spring 2021/Game Development/Danger-Close/Danger Close
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51228
+Successfully changed project path to: E:/Documents/School/Spring 2021/Game Development/Danger-Close/Danger Close
+E:/Documents/School/Spring 2021/Game Development/Danger-Close/Danger Close
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.5f1 (3737af19df53)
+[Subsystems] Discovering subsystems at path E:/Programs/Unity/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Documents/School/Spring 2021/Game Development/Danger-Close/Danger Close/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'E:/Programs/Unity/2021.1.5f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Programs/Unity/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Programs/Unity/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Programs/Unity/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001287 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1282 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1756.
+Total: 1.552600 ms (FindLiveObjects: 0.099100 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.360600 ms  DeleteObjects: 0.058600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Audio/Reaper Prop.wav
+  artifactKey: Guid(ef1706ffcda46da4d90cb61d85592137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Reaper Prop.wav using Guid(ef1706ffcda46da4d90cb61d85592137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1543b19347c2e099d99dfbc979192280') in 0.104218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Audio/Reaper Intake.wav
+  artifactKey: Guid(66c85dea18c3cda4bba5fd94bcfa86e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Reaper Intake.wav using Guid(66c85dea18c3cda4bba5fd94bcfa86e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fde8a5de3e58c8658dde7ffef50e44') in 0.011852 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1768.
+Total: 1.753500 ms (FindLiveObjects: 0.098900 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.577000 ms  DeleteObjects: 0.040500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 569.238968 seconds.
+  path: Assets/Audio/Reaper Prop2.wav
+  artifactKey: Guid(66c85dea18c3cda4bba5fd94bcfa86e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Reaper Prop2.wav using Guid(66c85dea18c3cda4bba5fd94bcfa86e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f1061e3d816d720eab7a7d18ddbe6f') in 0.051379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.377508 seconds.
+  path: Assets/Audio/Reaper Intake.wav
+  artifactKey: Guid(ef1706ffcda46da4d90cb61d85592137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Reaper Intake.wav using Guid(ef1706ffcda46da4d90cb61d85592137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f927881dceb4f77992e8ee7e874ed3e') in 0.007147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.499505 seconds.
+  path: Assets/Audio/Reaper Prop.wav
+  artifactKey: Guid(66c85dea18c3cda4bba5fd94bcfa86e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Reaper Prop.wav using Guid(66c85dea18c3cda4bba5fd94bcfa86e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57883330f1118426557cd309f4a6e057') in 0.013593 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1772.
+Total: 1.769900 ms (FindLiveObjects: 0.120000 ms CreateObjectMapping: 0.039500 ms MarkObjects: 1.568600 ms  DeleteObjects: 0.041100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.197247 seconds.
+  path: Assets/Audio/MainMixer.mixer
+  artifactKey: Guid(a0b7c14d8a627134eb31b97077217554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/MainMixer.mixer using Guid(a0b7c14d8a627134eb31b97077217554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1a01424c1a5793c7e268aabb3ee47a') in 0.024239 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1775.
+Total: 1.773400 ms (FindLiveObjects: 0.130200 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.549400 ms  DeleteObjects: 0.047300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1778.
+Total: 1.756700 ms (FindLiveObjects: 0.101700 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.583500 ms  DeleteObjects: 0.037000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.040935 seconds.
+  path: Assets/Audio/MainMixer.mixer
+  artifactKey: Guid(a0b7c14d8a627134eb31b97077217554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/MainMixer.mixer using Guid(a0b7c14d8a627134eb31b97077217554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39072b3449376b96c40bce3aeb8e68e6') in 0.019193 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002825 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1781.
+Total: 1.652800 ms (FindLiveObjects: 0.115700 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.460300 ms  DeleteObjects: 0.039400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

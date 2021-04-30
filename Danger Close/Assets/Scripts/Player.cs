@@ -145,6 +145,8 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             selectedHellfire.Launch();
+            ammoRemaining--;
+            ammoRemainingText.text = ammoRemaining.ToString();
             CycleWeapons();
         }
     }

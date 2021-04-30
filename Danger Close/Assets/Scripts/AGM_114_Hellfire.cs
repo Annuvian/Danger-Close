@@ -6,6 +6,7 @@ public class AGM_114_Hellfire : MonoBehaviour
 {
     // Fields
     private float thrust = 4412.9925f;
+    private float burnTime = 3f;
     private float maxSpeedMps = 424.688f;
     private float armingDistance = 300;
     private Vector3 launchPosition;
@@ -19,10 +20,9 @@ public class AGM_114_Hellfire : MonoBehaviour
     [SerializeField] Rigidbody rb;
     [SerializeField] GameObject explosion;
     [SerializeField] AudioSource explosionSound;
-    [SerializeField] Transform smoke;
+    [SerializeField] ParticleSystem fire;
+    [SerializeField] ParticleSystem smokeTrail;
     private Player player;
-
-    // [SerializeField] DestroyedObject temp;
 
     void Start()
     {
@@ -48,6 +48,8 @@ public class AGM_114_Hellfire : MonoBehaviour
             launchPosition = transform.position;
             hasLaunched = true;
             motorBurning = true;
+            fire.Play();
+            smokeTrail.Play();
         }
     }
 
@@ -56,9 +58,11 @@ public class AGM_114_Hellfire : MonoBehaviour
         target = player.laser.point;
         if (hasLaunched)
         {
+            burnTime -= Time.deltaTime;
             transform.LookAt(target);
             transform.position = Vector3.MoveTowards(transform.position, target, maxSpeedMps * Time.deltaTime);
             Arm();
+            StopThrust();
             if (Vector3.Distance(transform.position, target) <= 0.1f)
             {
                 Detonate();
@@ -74,15 +78,27 @@ public class AGM_114_Hellfire : MonoBehaviour
     {
         if (isArmed)
         {
-            // Play explosion sound
-            // Spawn explosion/smoke/fragment particles
-            // Destroy missile
             // Damage things nearby
             // Throw fragments etc.
             Instantiate(explosion, transform.position, explosion.transform.rotation);
-            smoke.GetComponent<ParticleSystem>().loop = false;
-            smoke.parent = null;
-            // temp.DestroyUnit();
+            if (GameObject.Find("HVT") != null)
+            {
+                if (Vector3.Distance(transform.position, GameObject.Find("HVT").transform.position) <= 20f)
+                {
+                    GameObject.Find("HVT").GetComponent<DestroyedObject>().DestroyUnit();
+                }
+            }
+            Vector3 explosionPos = transform.position;
+            Collider[] colliders = Physics.OverlapSphere(explosionPos, 20f);
+            foreach (Collider hit in colliders)
+            {
+                Rigidbody rb = hit.GetComponent<Rigidbody>();
+                if (rb != null)
+                {
+                    rb.AddExplosionForce(50000f, explosionPos, 40f, 0f, ForceMode.Impulse);
+                }
+            }
+            smokeTrail.GetComponent<Transform>().parent = null;
             Destroy(gameObject);
         }
         else
@@ -106,7 +122,12 @@ public class AGM_114_Hellfire : MonoBehaviour
 
     public void StopThrust()
     {
-
+        if (burnTime <= 0f)
+        {
+            motorBurning = false;
+            smokeTrail.Stop();
+            fire.Stop();
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
