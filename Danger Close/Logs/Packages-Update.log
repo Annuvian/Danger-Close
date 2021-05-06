@@ -63,3 +63,11 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.timeline from version 1.5.2 to 1.5.4
+
+=== Thu May  6 13:53:55 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 3.0.5 to 3.0.6
